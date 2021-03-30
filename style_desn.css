@@ -1,0 +1,247 @@
+html, body {
+  min-height: 100vh; 
+}
+body {
+  margin: 0px;
+  background-color: #2c2c2c;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-size: 20;
+  text-align: center;
+  font-family: 'Jost', sans-serif;
+  color: white;
+}
+#h1_desn {
+  margin-left: .5em;
+  font-size: 3em;
+  margin-right: 50em;
+}
+#icone {
+  border-radius: 50%;
+  margin-left: 200px;
+}
+div{
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.button{
+  background-size: cover;
+  border: 10px solid #7c1aec;
+  font-family: 'Jost', sans-serif;
+  border-radius: 50%;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 30px;
+  padding: 70px;
+  height: 70px;
+  width: 100px;
+  transition: all 0.1s;
+  cursor: pointer;
+  position: relative;
+}
+.button:active {
+  background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button:focus{
+  outline: 0px;
+}
+
+.button:nth-of-type(1){
+  background-image: url(https://cdn.discordapp.com/attachments/781943507631603752/825471161017434133/foto_joao.png);
+}
+
+.button:nth-of-type(2){
+  background-image: url(https://cdn.discordapp.com/attachments/781943507631603752/825471170307424336/foto_santana.png);
+}
+.button:nth-of-type(3){
+  background-image: url(https://media.discordapp.net/attachments/814216576801833010/814216669005217822/l9zm48azy1j61.png?width=680&height=670);
+}
+.button:nth-of-type(4){
+  background-image: url(https://cdn.discordapp.com/attachments/781943507631603752/825471173281447976/foto_braya.png);
+}
+.button:nth-of-type(5){
+  background-image: url(https://cdn.discordapp.com/attachments/781943507631603752/825471170231926824/foto_marks.png);
+}
+
+#dsn p{
+ margin-left: 20px;
+ margin-right: 20px;  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.egg{
+  opacity: 0;
+  color: blue;
+  font-size: 20px;
+  font: outline;
+}
+.egg:hover{
+  opacity: 1;
+  transition: all 5s;
+}
+
+.escondido{
+
+  opacity: 0;
+
+}
+
+.escondido:hover{
+
+  opacity: 1;
+  transition: all 8s;
+
+}
+
+nav p {
+  font-size: 15px;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  text-decoration: none;
+  transition: transform .4s linear;
+}
+b {
+  color:#7c1aec;
+}
+header img {
+  width: 2%;
+  height: auto;
+}
+
+main {
+  margin-top: -1.35em;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-size: cover;
+  background: url(imgs/icone3x2.jpg) no-repeat;
+  overflow-x: hidden;
+  background-position: 50% 50%;
+  flex: 1;
+}
+ul {
+  font-size: 40px;
+  font-family: 'Jost', sans-serif;
+  color: white;
+}
+li {
+  font-size: 20px;
+  font-family: 'Jost', sans-serif;
+  color: white;
+}
+h1 {
+  margin-top: 0px;
+}
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 15px;
+  font-family: 'Jost', sans-serif;
+  color: white;
+}
+a {
+  font-size: 15px;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  text-decoration: none;
+  transition: transform .2s linear;
+  padding-bottom: 0px;
+}
+a:hover {
+  transform: scale(1.2);
+  padding-bottom: 0px;
+}
+header {
+  background-image: url("imgs/aaa.jpg");
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+header a {
+  text-align: center;
+  margin: 0 0 0 0;
+  padding-bottom: 25px;
+}
+header p {
+  font-size: 15px;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  text-decoration: none;
+  transition: transform .2s linear;
+  text-align: center;
+  margin: 0 0 0 0;
+  padding-bottom: 5px;
+}
+header p:hover {
+  transform: scale(1.1);
+}
+header h2 {
+  font-size: 15px;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  text-decoration: none;
+  transition: transform .2s linear;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 5px;
+  width: 300px;
+}
+header h2:hover{
+  transform: scale(1.2);
+}
+.h1QSite {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 14em;
+  margin-top: 0px;
+}
+h2 {
+  font-size: 15px;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin-right: auto;
+  margin-left: .2em;
+  padding-bottom: 5px;
+  width: 300px;
+}
+footer {
+  background-image: url("imgs/aaa.jpg");
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  font-family: 'Roboto 
+  no', monospace;
+}
+footer a {
+  margin: 0 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0px;
+}
+footer p {
+  margin: 0 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+
+
+#text {
+  display: flex;
+  flex-direction: flex;
+  flex-wrap: wrap;
+}
